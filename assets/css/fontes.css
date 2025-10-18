@@ -1,0 +1,87 @@
+.fonte-imperial-script {
+
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+}
+a{
+    display: block;
+    text-decoration: none; 
+    color: #000;  
+}
+.text-decoration-underline{
+    display: block;
+    text-decoration: underline;
+    /*sublinhado*/
+}
+.italico{
+    display: block;
+    font-style: italic;
+    /*✔*/
+}
+
+.negrito{
+    display: block;
+    font-weight: bold;
+    /*✔*/
+}
+.maiusculo{
+    display: block;
+    text-transform: uppercase;
+    /*✔*/
+}
+.minusculo{
+    display: block;
+    text-transform: lowercase;
+    /*✔*/
+}
+.capitalizacao{
+    display: block;
+    text-transform: capitalize;
+    /*primeira letra maiuscula*/
+    /*✔*/    
+}
+
+.alterar-fonte{
+    font-family: Arial, Helvetica, sans-serif
+     /*✔*/    
+}
+
+.linha-maior{
+    line-height: 3;
+    /*✔*/    
+
+}
+.espacamento-entre-linhas{
+    display: block;
+    letter-spacing: 0.12em;
+    /*✔*/ 
+}
+.espacamento-entre-palavras{
+    display: block;
+    word-spacing: 1em;
+    /*✔*/ 
+}
+.alinhamento-direito{
+    text-align: right;
+    /*✔*/
+}
+.alinhamento-centro{
+    text-align: center;
+    /*✔*/
+}
+.alinhamento-esquerda{
+    text-align: left;
+    /*✔*/
+}
+.paragrafo-recuo-primeira-linha{
+    text-indent: 2em;
+    /*✔*/
+}
+.parafrafo-fifenizacao-automatica{
+    hyphens: auto;
+    text-align: justify;
+}
+
