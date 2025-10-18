@@ -1,3 +1,10 @@
+/*css reset*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
 
 h2{
     /*
@@ -6,6 +13,23 @@ h2{
         G => 0...255
         B => 0...255
     */
-    color: rgb(120, 192, 145);
+
+    color: rgb(62, 106, 138);
 }
-back
+div{
+    background-color: #004e8e ;
+    
+    
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    /*text-decoration altera a decoração do texto
+    none fax com que o texto nao tenha nenhuma decoração = __*/
+    
+}
+/*hover é a acção que ocorre quando passa o mouse por cima do elemento*/
+a:hover{
+    color: #ff6500;
+}
+
