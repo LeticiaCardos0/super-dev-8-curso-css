@@ -72,4 +72,35 @@ div.section{
 .justify-content-space-evenly{
     justify-content: space-evenly;
 }
-
+.flex-altura{
+    min-height: 120px;
+}
+.item-baixo{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.item-medio{
+    font-size: 16px;
+    padding: 10px;
+}
+.item-alto{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.align-itens-flex-start{
+    align-items: flex-start;
+}
+.align-itens-center{
+    align-items: center;
+}
+.align-itens-flex-end{
+    align-items: flex-end;
+}
+.align-itens-stretch{
+    align-items: stretch;
+}
+.align-itens-baseline{
+    align-items: baseline;
+}
